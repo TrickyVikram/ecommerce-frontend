@@ -65,13 +65,13 @@ const Header = () => {
 };
 
 // Styles (in JavaScript)
-const headerStyles = {
-  display: 'flex',
-  alignItems: 'center',
-  justifyContent: 'space-between',
-  padding: '10px 20px',
-  backgroundColor: '#2874F1',
-};
+// const headerStyles = {
+//   display: 'flex',
+//   alignItems: 'center',
+//   justifyContent: 'space-between',
+//   padding: '10px 20px',
+//   backgroundColor: '#2874F1',
+// };
 
 const leftSectionStyles = {
   display: 'flex',
