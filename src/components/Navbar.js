@@ -1,5 +1,6 @@
 import React from 'react';
 import { Navbar, Nav, NavDropdown, Form, FormControl, Button } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function EcommerceNavbar() {
   return (
@@ -26,7 +27,7 @@ function EcommerceNavbar() {
             <NavDropdown.Item href="#register">Register</NavDropdown.Item>
           </NavDropdown>
         </Nav>
-        <Form inline className="d-flex">
+        <Form className="d-flex">
           <FormControl type="text" placeholder="Search" className="mr-sm-2" />
           <Button variant="outline-success">Search</Button>
         </Form>
