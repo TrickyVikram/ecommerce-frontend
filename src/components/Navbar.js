@@ -28,8 +28,11 @@ function EcommerceNavbar() {
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
           <Nav.Link href="#cart">Cart</Nav.Link>
+          <Nav.Link href="#check">buy</Nav.Link>
         </Nav>
 
+
+   
         <NavDropdown title="Account" id="basic-nav-dropdown">
           <NavDropdown.Item href="#profile">Profile</NavDropdown.Item>
           <NavDropdown.Item href="#login">Login</NavDropdown.Item>
